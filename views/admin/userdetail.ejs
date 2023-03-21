@@ -1,0 +1,22 @@
+<table class="table">
+  
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">sl num</th>
+        <th scope="col">Name</th>
+        <th scope="col">View</th>
+        <th scope="col">Block/Unblock</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% users.forEach(el => { %>
+      <tr>
+        <th scope="row">1</th>
+        <td><%=el.name%></td>
+        <td><%=el.email%></td>
+        <td></td>
+      </tr>
+      <%}) %>
+    </tbody>
+  </table>
+  
